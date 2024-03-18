@@ -1,0 +1,23 @@
+#__next {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  grid-template-rows: min-content 1fr min-content;
+  grid-template-columns: 1fr;
+}
+
+#__next > header {
+  grid-area: header;
+}
+
+#__next > main {
+  grid-area: main;
+}
+
+#__next > footer {
+  grid-area: footer;
+}

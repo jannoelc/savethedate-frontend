@@ -1,0 +1,79 @@
+.title {
+  font-size: 5rem;
+  text-align: center;
+
+  @media only screen and (max-width: 575px) {
+    font-size: 3.8rem;
+  }
+}
+
+.wedding {
+  font-family: "Libre Baskerville", serif;
+  letter-spacing: 0.6rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-top: -0.5rem;
+  margin-bottom: 2rem;
+
+  @media only screen and (max-width: 575px) {
+    font-size: 1.2rem;
+  }
+}
+
+.and {
+  font-size: 3rem;
+
+  @media only screen and (max-width: 575px) {
+    font-size: 2rem;
+  }
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+}
+
+.joinUs {
+  font-size: 0.9rem;
+}
+
+.pipe {
+  font-size: 1.6rem;
+}
+
+.gg {
+  font-size: 1.1em;
+  margin-right: 0.2em;
+}
+
+.elegantText2 {
+  span {
+    display: inline-block;
+  }
+}
+
+.elegantText {
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+
+  span::first-letter {
+    font-size: 1.1em;
+  }
+}
+
+.normie {
+  text-transform: uppercase;
+}
+
+.header {
+  font-size: 2.25rem;
+}
+
+.t27 {
+  font-size: 1.1rem;
+
+  &::first-letter {
+    font-size: 1.1rem !important;
+  }
+}

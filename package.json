@@ -1,0 +1,28 @@
+{
+  "name": "husband-wife-savethedate",
+  "version": "0.5.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bootstrap": "^5.1.3",
+    "classnames": "^2.3.1",
+    "dayjs": "^1.10.7",
+    "formik": "^2.2.9",
+    "next": "^12.0.7",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.0.3",
+    "react-dom": "^17.0.2",
+    "react-query": "^3.34.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^4.0.0-beta.12",
+    "prettier": "^2.5.1",
+    "sass": "^1.44.0"
+  }
+}
